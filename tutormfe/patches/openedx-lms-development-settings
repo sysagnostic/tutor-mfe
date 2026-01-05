@@ -73,6 +73,10 @@ PROFILE_MICROFRONTEND_URL = "http://{{ MFE_HOST }}:{{ get_mfe("profile")["port"]
 MFE_CONFIG["ACCOUNT_PROFILE_URL"] = "http://{{ MFE_HOST }}:{{ get_mfe("profile")["port"] }}/profile"
 {% endif %}
 
+{% if get_mfe("catalog") %}
+CATALOG_MICROFRONTEND_URL = "http://{{ MFE_HOST }}:{{ get_mfe("catalog")["port"] }}/catalog"
+{% endif %}
+
 {% if get_mfe("communications") %}
 COMMUNICATIONS_MICROFRONTEND_URL = "http://{{ MFE_HOST }}:{{ get_mfe("communications")["port"] }}/communications"
 MFE_CONFIG["SCHEDULE_EMAIL_SECTION"] = True

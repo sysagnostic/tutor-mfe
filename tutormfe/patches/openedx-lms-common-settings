@@ -14,3 +14,6 @@ FEATURES['ENABLE_NEW_BULK_EMAIL_EXPERIENCE'] = True
 {% if get_mfe("learner-dashboard") %}
 LEARNER_HOME_MFE_REDIRECT_PERCENTAGE = 100
 {% endif %}
+{% if get_mfe("catalog") %}
+ENABLE_CATALOG_MICROFRONTEND = True
+{% endif %}
