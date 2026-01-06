@@ -79,7 +79,6 @@ CORE_MFE_APPS: dict[str, MFE_ATTRS_TYPE] = {
     "catalog": {
         "repository": "https://github.com/openedx/frontend-app-catalog.git",
         "port": 1998,
-        "version": "master",
     },
 }
 
