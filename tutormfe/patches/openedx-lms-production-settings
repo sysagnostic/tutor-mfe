@@ -74,6 +74,10 @@ PROFILE_MICROFRONTEND_URL = "{% if ENABLE_HTTPS %}https://{% else %}http://{% en
 MFE_CONFIG["ACCOUNT_PROFILE_URL"] = "{% if ENABLE_HTTPS %}https://{% else %}http://{% endif %}{{ MFE_HOST }}/profile"
 {% endif %}
 
+{% if get_mfe("catalog") %}
+CATALOG_MICROFRONTEND_URL = "{% if ENABLE_HTTPS %}https://{% else %}http://{% endif %}{{ MFE_HOST }}/catalog"
+{% endif %}
+
 {% if get_mfe("communications") %}
 COMMUNICATIONS_MICROFRONTEND_URL = "{% if ENABLE_HTTPS %}https://{% else %}http://{% endif %}{{ MFE_HOST }}/communications"
 MFE_CONFIG["SCHEDULE_EMAIL_SECTION"] = True
