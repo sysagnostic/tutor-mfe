@@ -45,8 +45,9 @@ CORE_MFE_APPS: dict[str, MFE_ATTRS_TYPE] = {
         "port": 2001,
     },
     "account": {
-        "repository": "https://github.com/openedx/frontend-app-account.git",
+        "repository": "https://github.com/sysagnostic/frontend-app-account.git",
         "port": 1997,
+        "version": "i18n-hu",
     },
     "communications": {
         "repository": "https://github.com/openedx/frontend-app-communications.git",
