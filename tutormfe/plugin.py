@@ -78,8 +78,9 @@ CORE_MFE_APPS: dict[str, MFE_ATTRS_TYPE] = {
         "port": 1995,
     },
     "catalog": {
-        "repository": "https://github.com/openedx/frontend-app-catalog.git",
+        "repository": "https://github.com/sysagnostic/frontend-app-catalog.git",
         "port": 1998,
+        "version": "release/ulmo+i18n-hu",
     },
 }
 
