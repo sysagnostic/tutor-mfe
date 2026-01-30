@@ -82,6 +82,39 @@ CORE_MFE_APPS: dict[str, MFE_ATTRS_TYPE] = {
         "port": 1998,
         "version": "release/ulmo+i18n-hu",
     },
+    "ora": {
+        "repository": "https://github.com/openedx/frontend-app-ora.git",
+        "port": 1992,
+    },
+    "learner-record": {
+        "repository": "https://github.com/openedx/frontend-app-learner-record.git",
+        "port": 1990,
+    },
+    # "admin-portal": {
+    #     "repository": "https://github.com/openedx/frontend-app-admin-portal.git",
+    #     "port": 1991,
+    #     "version": "master",
+    # },
+    # "learner-portal-enterprise": {
+    #     "repository": "https://github.com/openedx/frontend-app-learner-portal-enterprise.git",
+    #     "port": 8734,
+    #     "version": "master",
+    # },
+    # "instruct": {
+    #     "repository": "https://github.com/openedx/frontend-app-instruct.git",
+    #     "port": 8080,
+    #     "version": "main",
+    # },
+    # "enterprise-public-catalog": {
+    #     "repository": "https://github.com/openedx/frontend-app-enterprise-public-catalog.git",
+    #     "port": 8735,
+    #     "version": "main",
+    # },
+    # "support-tools": {
+    #     "repository": "https://github.com/openedx/frontend-app-support-tools.git",
+    #     "port": 18450,
+    #     "version": "master",
+    # },
 }
 
 
